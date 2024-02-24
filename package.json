@@ -1,0 +1,14 @@
+{
+  "name": "belajar_typescript",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "bun --watch index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
